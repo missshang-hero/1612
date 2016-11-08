@@ -1,0 +1,52 @@
+<header class="header3">
+		<div>&nbsp;<img src="images/sao.jpg"><span>扫一扫</span></div>
+		<div><p>黄平路/回龙观东大街（路口）...</p></div>
+		<div><img src="images/sou.jpg">
+		<span>搜索</span>
+		</div>
+	</header>
+	<div class="main">
+		<div class="left">
+			<ul>
+				<li><span></span>热销榜</li>
+				<li class="list1"><span></span>天天特价</li>
+				<li class="list2"><span></span>优选水果</li>
+				<li class="list3"><span></span>牛奶面包</li>
+				<li><span></span>卤味熟食</li>
+				<li><span></span>饮料酒水</li>
+				<li><span></span>休闲零食</li>
+				<li><span></span>冰淇淋</li>
+				<li><span></span>方便速食</li>
+				<li><span></span>生活用品</li>
+			</ul>
+		</div>
+		<div class="right">
+			<h3>
+				<span>全部分类<img src="images/xia.png"></span>
+				<span>综合排序<img src="images/xia.png"></span>
+			</h3>
+			<ul id="storeLi">
+				
+	
+			</ul>
+		</div>
+	</div>
+				<script id="storeH" type="text/html">
+				<%for(var i=0; i<data.length; i++){%>
+			   <li id="<%=md5(JSON.stringify(data[i]))%>">
+			   		 <img src=<%=data[i].img%>>
+			   		<p><%=data[i].name%></p>
+			   		<p><span>精选</span><span><%=data[i].pm_desc%></span></p>
+			   		<p><%=data[i].specifics%></p>
+			   		<p>￥<%=data[i].price%><span>￥<%=data[i].market_price%></span></p>
+			   		<div>
+						<span>-</span>
+						<span>0</span>
+						<span>+</span>
+					</div>
+					<textarea style="display:none">
+					 <%=JSON.stringify(data[i])%>
+					</textarea>		
+			   		</li>
+			  	<%}%>
+			  	</script>

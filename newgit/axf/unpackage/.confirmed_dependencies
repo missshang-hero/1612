@@ -1,0 +1,16 @@
+{
+	"index.html": {
+		"resources": [
+			"lib/underscore.js",
+			"modules/home/ajax.js",
+			"lib/jquery.js",
+			"router.js",
+			"lib/require.js",
+			"css/common.css",
+			"lib/backbone.js",
+			"modules/home/baiduTemplate.js",
+			"md5.js",
+			"main.js"
+		]
+	}
+}

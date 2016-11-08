@@ -1,0 +1,349 @@
+*{margin: 0;padding: 0;}
+body{
+	background: #efefef;
+}
+.home .header0{
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	background: #ffd600;
+	font-size: 1rem;
+	position: fixed;
+	top: 0;
+	opacity: 1;
+	z-index: 100;
+}
+ .home .header0 div:nth-of-type(2){
+	line-height: 4em;
+	margin:auto;
+}
+.home .header0 div:first-of-type{
+	width: 3.5rem;
+	margin-top: 0.3rem;
+	margin-right: 0.8rem;
+	text-align: center;
+	padding-left: 0.2rem;
+}
+.home .header0 div:first-of-type img{
+	width: 2rem;
+}
+.home .header0 div:last-of-type{
+	width: 2rem;
+	margin-top: 0.6rem;
+	margin-right: 0.8rem;
+}
+.home .lunboDiv{
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+	margin-top: 4rem;
+}
+.home .lunboDiv>div{
+	width: 130rem;
+	height: 10rem;
+	/*overflow: hidden;*/
+}
+.home .lunboDiv>div div{
+	width: 130rem;
+	
+}
+.home .lunboDiv>div>div img{width: 100%;height: 10rem;}
+.home .swiper-pagination{
+	position: absolute;
+	right: 1rem;
+	bottom: 0.5rem;
+	display: flex;
+	z-index: 1000;
+}
+.swiper-pagination span{
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 0.2rem;
+	background: #fff;
+	margin-left: 0.3rem;
+}
+
+.home .over{
+	background: yellow;
+}
+/*nav*/
+.home .nav1{
+	display: flex;
+	height: 7rem;
+	width: 100%;
+	background: #fff;
+	justify-content: space-around;
+	margin-top: 0.8rem;
+}
+.home .nav1 div{
+	width: 5rem; 
+	margin-top: 1rem;
+	text-align: center;
+}
+.home .nav1 div img{
+	width: 4rem;
+	height: 3rem;
+}
+.home .nav1 div span{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.home .main1{
+	display: flex;
+	width: 100%;
+	height: 11.3rem;
+	margin-top: 0.8rem;
+	justify-content: space-between;
+}
+.home .mains{
+	background: #fff;
+	width: 33%;
+	text-align: center;
+}
+.home .main div h3{
+	width: 100%;
+	color: #fb8f0b;
+	margin-top: 6px;
+	text-align: center;
+	line-height: 30px;
+}
+.home .main div p{
+	width: 100%;
+	text-align: center;
+	color: #888;
+}
+
+.home .banner{
+	width: 100%;
+	background: #fff;
+	margin-top: 0.8rem;
+	height: 16rem;
+}
+.home .banner p{
+	line-height: 4rem;
+	text-align: center;
+}
+.home .banner p img{
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.home .banner>div{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+.home .banner>div>img{
+	width: 48%;
+}
+.home .banner div div{
+	width: 3.8rem;
+	text-align: center;
+}
+.home .banner div div img{
+	width: 3.6rem;
+	height: 3.6rem;
+}
+.home .banner div div span{
+	width:4.2rem;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+
+.home .banne{
+	width: 100%;
+	display: flex;
+	height: 10rem;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.home .banne img{
+	width: 49%;
+	height: 4.8rem;
+	margin-top: 0.2rem;
+}
+
+.home .bann{
+	width: 100%;
+	height: 25rem;
+	background: #fff;
+	margin-top: 0.8rem;
+}
+.home .bann h3{
+	width: 100%;
+	height: 3rem;
+	color: #20b1fa;
+	line-height: 3rem;
+}
+.home .bann h3 span:first-of-type{
+	padding: 0.4rem 0.4rem;
+	background: #20b1fa;
+	margin: 0 0.5rem;
+}
+.home .bann h3 span:last-of-type{
+	float: right;
+	width: 5rem;
+	height: 3rem;
+	color: #747474;
+	margin-right: 0.6rem;
+}
+.home .bannDiv{
+	width: 100%;
+	height: 6rem;
+	display: flex;
+	justify-content: space-around;
+}
+.home .bannDiv img{
+	height: 100%;
+	width: 94%;
+}
+.home .ban{
+	width: 100%;
+	height: 14rem;
+	margin-top: 1rem;
+	margin-bottom: 6rem;
+}
+.home .ban>div{
+	width: 33%;
+	height: 14rem;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.home .ban div:nth-of-type(2){
+	border-left: 1px solid  #efefef;
+	border-right: 1px solid  #efefef;
+}
+.home .ban>div>img{
+	width: 100%;
+	height: 7.75rem;
+	float: left;
+}
+.home .ban>div>p{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	float: left;
+	padding-left: 0.8rem;
+}
+.ban>div>p>span{
+	color: #ff0000;
+	border: 1px solid #f00;
+	border-radius: 3px;
+}
+.ban>div>div{
+	width: 50%;
+	float: left;
+}
+.ban>div>div>p:first-of-type{
+	color: #ababab;
+	padding-left: 0.8rem; 
+}
+.ban>div>div>p:last-of-type{
+	color: #ff5a2c;
+	padding-left: 0.8rem; 
+}
+.ban>div>div>p:last-of-type span{
+	color: #ababab;
+	padding-left: 0.4rem; 
+	text-decoration: line-through;
+}
+.ban>div>span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: 1px solid  #ababab;
+	padding: 0.2rem 0.8rem;
+	border-radius: 2rem;
+	font-size: 2rem;
+	color: red;
+	font-weight: bold;
+	margin-right: 0.3rem;
+}
+.hr{
+	width: 100%;
+	height: 3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.hr div{
+	margin-top: 1rem;
+}
+.hr div:first-of-type{
+	width: 40%;
+	margin-top: 1.5rem;
+}
+.hr div:last-of-type{
+	width: 40%;
+	margin-top: 1.5rem;
+}
+.xfrm{
+	width: 100%;
+	height: 14rem;
+	margin-top: 1rem;
+	margin-bottom: 6rem;
+}
+.xfrm>div{
+	width: 45%;
+	height: 18rem;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin-left: 0.7rem;
+	background: #fff;
+	margin-bottom: 1rem;
+}
+.xfrm div:nth-of-type(2){
+	border-left: 1px solid  #efefef;
+	border-right: 1px solid  #efefef;
+}
+.xfrm>div>img{
+	width: 100%;
+	height: 10rem;
+	float: left;
+}
+.xfrm>div>p{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	float: left;
+	padding-left: 0.8rem;
+}
+.xfrm>div>p>span{
+	color: #ff0000;
+	border: 1px solid #f00;
+	border-radius: 3px;
+}
+.xfrm>div>div{
+	width: 50%;
+	float: left;
+}
+.xfrm>div>div>p:first-of-type{
+	color: #ababab;
+	padding-left: 0.8rem; 
+}
+.xfrm>div>div>p:last-of-type{
+	color: #ff5a2c;
+	padding-left: 0.8rem; 
+}
+.xfrm>div>div>p:last-of-type span{
+	color: #ababab;
+	padding-left: 0.4rem; 
+	text-decoration: line-through;
+}
+.xfrm>div>span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: 1px solid  #ababab;
+	padding: 0.2rem 0.8rem;
+	border-radius: 2rem;
+	font-size: 2rem;
+	color: red;
+	font-weight: bold;
+	margin-right: 0.3rem;
+}

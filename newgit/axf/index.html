@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="utf-8" name="viewport" content="initial-scale=1.0,width=device-width, minimum-scale=1.0,maximum-scale=5.0,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<title>爱鲜蜂</title>
+	 <script type="text/javascript">
+    // (function (doc, win) {
+    //     var docEl = doc.documentElement,
+    //         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+    //         recalc = function () {
+    //             var clientWidth = docEl.clientWidth;
+    //             if (!clientWidth) return;
+    //              docEl.style.fontSize = 20 * (clientWidth /736) + 'px';
+                
+    //         };
+
+    //     if (!doc.addEventListener) return;
+    //     win.addEventListener(resizeEvt, recalc, false);
+    //     doc.addEventListener('DOMContentLoaded', recalc, false);
+    // })(document, window);
+  </script>
+</head>
+<body id="body">
+<div id="container"></div>
+	
+	<footer class="footer">
+		<div>
+			<a href="#home"><div class="homef"></div></a>首页&nbsp;
+		</div>
+		<div>
+			
+			<a href="#store"><div class="storef"></div></a>闪送超市
+		</div>
+		<div>
+			<a href="#order"><div class="orderf"> </div></a>新鲜预定
+		</div>
+		<div id="car">
+			<a href="#cart"><div class="carf"></div></a>购物车<span>0</span>
+		</div>
+		<div>
+			<a href="#mine"><div  class="minef"></div></a>我的&nbsp;
+		</div>
+	</footer>
+	<div class="load" style="display: none;">
+		<img src="images/load0.png">
+	</div>
+</body>
+
+<script src="lib/require.js" data-main="main"></script>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript">
+	 $('.homef').addClass('footer-div1');
+  $('.homef').on('click',function(){
+    $(this).addClass('footer-div1')
+     $('.storef').removeClass('footer-div2')
+    $('.carf').removeClass('footer-div3')
+    $('.minef').removeClass('footer-div4')
+  });
+  $('.storef').on('click',function(){
+    $(this).addClass('footer-div2');
+     $('.homef').removeClass('footer-div1')
+    $('.carf').removeClass('footer-div3')
+     $('.minef').removeClass('footer-div4')
+  });
+  $('.carf').on('click',function(){
+    $(this).addClass('footer-div3');
+    $('.homef').removeClass('footer-div1')
+    $('.storef').removeClass('footer-div2')
+     $('.minef').removeClass('footer-div4')
+  })
+  $('.minef').on('click',function(){
+    $(this).addClass('footer-div4');
+    $('.homef').removeClass('footer-div1')
+    $('.storef').removeClass('footer-div2')
+    $('.carf').removeClass('footer-div3')
+  })
+
+</script>
+</html>

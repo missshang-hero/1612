@@ -1,0 +1,169 @@
+*{margin: 0;padding: 0;text-decoration:none;}
+body{
+	background: #efefef;
+}
+.header1{
+	/*width: 100px;*/
+	height:9.6rem; 
+	width: 100%;
+	background:#ffd600;
+	position: fixed;
+	top: 0;
+}
+.header10{
+	width: 100%;
+	display: flex;
+	height: 8rem;
+}
+.header10 div:first-of-type{
+	width: 30%;
+	height: 8rem;
+	line-height: 8rem;
+	text-align: center;
+}
+.header10 div:first-of-type img{
+	width: 5rem;
+	vertical-align: middle;
+}
+.header10 div:nth-of-type(2){
+	width: 50%;
+	height: 8rem;
+}
+.header10 div:nth-of-type(2) p:first-of-type{
+	line-height: 2rem;
+	margin-top: 1.5rem;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.header10 div:nth-of-type(2) p:last-of-type{
+	color: red;
+	height: 3rem;
+	background: url(../../images/huiyuan.png) no-repeat;
+	background-size: 10rem;
+	line-height: 3rem;
+	padding-left: 3rem;
+}
+.header10 div:nth-of-type(3){
+	width: 20%;
+	height: 8rem;
+	line-height: 8rem;
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+}
+.header1 ul{
+	width: 100%;
+	height: 2rem;
+	background:#f3c800;
+}
+.header1 ul li{
+	float: left;
+	padding: 0 3rem;
+	list-style: none;
+	line-height: 2rem;
+	color: #fff;
+}
+.header1 ul li:first-of-type{
+	border-right: 1px solid #fff;
+}
+.header1 ul li img{
+	width: 1.5rem;
+	vertical-align: middle;
+	margin-right: 1rem;
+}
+.indent{
+	width: 100%;
+	height: 4rem;
+	background:#fff;
+	margin-top: 1rem;
+	margin-top: 11rem;
+}
+.indent p{
+	height: 4rem;
+	line-height: 4rem;
+	padding-left: 2rem;;
+	color: #353535;
+}
+.indent p span{
+	float: right;
+	margin-right: 2rem;;
+	color: #b7b7b7;
+}
+
+.nav{
+	width: 100%;
+	height: 6rem;
+	color: #353535;
+	display: flex;
+	background:#fff;
+	margin-top: 0.1rem;
+}
+.nav>div{
+	width: 6rem;
+}
+.nav>div:first-of-type{
+	margin-left:1.8rem;
+}
+.nav>div>div:first-of-type{
+	height: 4rem;
+}
+.nav div img{
+	width: 2rem;
+	margin-top: 1.8rem;
+	margin-left: 0.3rem;
+}
+
+.nav3{
+	width: 100%;
+	height: 8rem;
+	color: #353535;
+	display: flex;
+	background:#fff;
+	margin-top:1.2rem;
+}
+.nav3>div{
+	width: 6rem;
+}
+.nav3>div:first-of-type{
+	margin-left:1.8rem;
+}
+.nav3>div>div:first-of-type{
+	height: 5rem;
+}
+.nav3>div img{
+	width: 2rem;
+	margin-top: 2.5rem;
+	margin-left: 0.3rem;
+}
+
+.nav2{
+	width: 100%;
+	height: 8rem;
+	color: #353535;
+	background:#fff;
+	margin-top: 0.1rem;
+}
+.nav2>div{
+	width: 6rem;
+}
+.nav2>div:first-of-type{
+	margin-left:1.8rem;
+}
+.nav2>div>div:first-of-type{
+	height: 5rem;
+}
+.nav2 div img{
+	width: 2rem;
+	margin-top: 2.5rem;
+	margin-left: 0.3rem;
+}
+.ft{
+	height: 3rem;
+	color: #353535;
+	background:#fff;
+	text-align: center;
+	line-height: 3rem;
+	margin-bottom: 6rem;
+	margin-top: 1.6rem;
+}

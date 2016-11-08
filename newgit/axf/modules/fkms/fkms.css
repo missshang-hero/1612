@@ -1,0 +1,247 @@
+*{margin: 0;padding: 0;text-decoration:none;list-style: none;color: #7a7a7a;}
+body{
+	background: #efefef;
+}
+.fkms header{
+	width: 100%;
+	height: 3.75rem;
+	background:#f9fafd;
+	line-height: 3.75rem;
+	text-align: center;
+	font-weight: bold;
+	color:#000;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+.fkms header span{
+	float: left;
+	font-size: 2rem;
+	margin-left: 0.6rem;
+}
+.fkms header img{
+	float: right;
+	margin-right: 0.6rem;
+	width: 2rem;
+	margin-top: 0.6rem;
+}
+.fkms .fNav{
+	width: 100%;
+	margin-top: 3.75rem;
+}
+.fkms .fNav img{
+	width: 100%;
+}
+
+.fkms .navDiv{
+	width: 100%;
+	height: 5.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+ .fkms .navDiv div{
+	width: 24.5%;
+	height: 5.6rem;
+	background: #000;
+}
+.fkms .navDiv div p{
+	color: #fff;
+	line-height:1.7rem;
+	text-align: center;
+}
+.fkms .navDiv div p span{
+	display: inline-block;
+	height: 1.3rem;
+	width: 1.3rem;
+	border-radius: 1.5rem;
+	background-color: #fff;
+	background-image: url(../../images/true.png);
+	background-size: 5rem 1.5rem;
+	background-position:0.5px -3px;
+}
+
+.fkms .banner{
+	width: 100%;
+	height: 3.25rem;
+	background: #f2f2f2;
+	border-top: 0.2rem solid #fff;
+}
+.fkms .left{
+	width: 10rem;
+	height: 3.25rem;
+	background: #fdd000;
+}
+.fkms .left p{
+	line-height: 1.6rem;
+	font-weight: bold;
+	margin-left: 1.6rem;
+}
+.fkms .banner{
+	position: relative;
+}
+.fkms .banner>span{
+	float: right;
+	background: #000;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 2rem;
+	color: #fff;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+}
+.fkms .left div{
+	position: absolute;
+	border-bottom:1.6rem solid #f2f2f2; 
+	border-left:1.6rem solid #fdd000; 
+	border-top:1.6rem solid #f2f2f2; 
+	left: 10rem;
+	top: 0;
+}
+.fkms .ban{
+	width: 100%;
+	height: 12rem;
+	background: #fff;
+	display: flex;
+	margin-bottom: 1rem;
+}
+.fkms .ban div:first-of-type{
+	width: 45%;
+	height: 12rem;
+}
+.fkms .ban div:first-of-type img{
+	width: 100%;
+}
+.fkms .ban div:last-of-type{
+	width: 54%;
+}
+.fkms .detail p{
+	line-height: 2.5rem;
+	margin-left: 1rem;
+}
+.fkms .detail p:nth-of-type(3){
+	color: #ff602c;
+}
+.fkms .detail p:nth-of-type(3) span:first-of-type{
+	font-size: 2em;
+	color: #ff602c;
+	border:none;
+}
+.fkms .detail p:nth-of-type(4) span{
+	display: inline-block;
+	width: 6rem;
+	background: #ff602c;
+	color: #fff;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	border-radius: 2rem;
+}
+
+ .fkms .car{
+	position: fixed;
+	bottom: 4rem;
+	right: 0.5rem;
+	background: yellow;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 3rem;
+	z-index: 4;
+}
+.fkms .car img{
+	width: 3rem;
+}
+.fkms .car span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 1rem;
+	width: 1rem;
+	display: inline-block;
+	background: red;
+	border-radius: 1rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+}
+.fkms .remai{
+	height: 2rem;
+	line-height: 2ren;
+	clear: both;
+}
+.fkms .remai p{
+	text-align: center;
+}
+.fkms .xfrm{
+	width: 100%;
+	height: 14rem;
+	margin-top: 1rem;
+	margin-bottom: 6rem;
+
+}
+.fkms .xfrm>div{
+	width: 45%;
+	height: 18rem;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin-left: 0.7rem;
+	background: #fff;
+	margin-bottom: 1rem;
+}
+.fkms .xfrm div:nth-of-type(2){
+	border-left: 1px solid  #efefef;
+	border-right: 1px solid  #efefef;
+}
+ .fkms .xfrm>div>img{
+	width: 100%;
+	height: 10rem;
+	float: left;
+}
+.fkms .xfrm>div>p{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	float: left;
+	padding-left: 0.8rem;
+}
+.fkms .xfrm>div>p>span{
+	color: #ff0000;
+	border: 1px solid #f00;
+	border-radius: 3px;
+}
+.fkms .xfrm>div>div{
+	width: 50%;
+	float: left;
+}
+.fkms .xfrm>div>div>p:first-of-type{
+	color: #ababab;
+	padding-left: 0.8rem; 
+}
+.fkms .xfrm>div>div>p:last-of-type{
+	color: #ff5a2c;
+	padding-left: 0.8rem; 
+}
+.fkms .xfrm>div>div>p:last-of-type span{
+	color: #ababab;
+	padding-left: 0.4rem; 
+	text-decoration: line-through;
+}
+.fkms .xfrm>div>span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: 1px solid  #ababab;
+	padding: 0.2rem 0.8rem;
+	border-radius: 2rem;
+	font-size: 2rem;
+	color: red;
+	font-weight: bold;
+	margin-right: 0.3rem;
+}
+.fkms .rules{
+	width: 100%;
+}
+.fkms .rules p{
+	line-height: 1.5rem;
+	padding: 0 1rem;
+}
